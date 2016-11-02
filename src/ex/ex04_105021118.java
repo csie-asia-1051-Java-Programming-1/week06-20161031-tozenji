@@ -10,8 +10,8 @@ public class ex04_105021118 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int A [ ]={ 1,2,3 };
-		
+		int A [ ]={ 1,2,3  };
+	   
 		square(A);		
 		
 		System.out.println("呼叫square( )");

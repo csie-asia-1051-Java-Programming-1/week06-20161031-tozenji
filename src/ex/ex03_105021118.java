@@ -9,15 +9,18 @@ public class ex03_105021118 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		String t;
-		Scanner scn = new Scanner(System.in);
-		t=scn.next();
-		int i =	    
+	decomp( );
 		
 	}
-	public static String decomp(String m){
+	public static void decomp( ){
+	Scanner scn = new Scanner(System.in);
+	String str = scn.next();
+	char data [ ]= str.toCharArray();
+	for(int i=0;i<data.length;i++){
+		System.out.print(data[i]+"\t");
 		
+	}
+	System.out.println();
 	}
 
 }
